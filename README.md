@@ -1,2 +1,4 @@
-# Here is the code that practices in the Lab
+# 1. FCFS Problem Statement Table : 
 ![image](https://github.com/user-attachments/assets/3096bd5a-8a5b-4aaf-917a-5e18a2c4105c)
+# 2. SJF Problem Statement Table :
+![image](https://github.com/user-attachments/assets/3bede451-5f6e-4b8c-a5dd-1aac336d381f)
