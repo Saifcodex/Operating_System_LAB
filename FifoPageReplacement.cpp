@@ -36,7 +36,7 @@ int main()
 {
     int pages[] = {1, 3, 0, 3, 5, 6, 3};
     int totalPages = sizeof(pages) / sizeof(pages[0]);
-    int frameSize = 4;
+    int frameSize = 3;
     cout << countPageMisses(pages, totalPages, frameSize) << endl;
     return 0;
 }
