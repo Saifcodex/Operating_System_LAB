@@ -37,6 +37,13 @@ int main()
     int pages[] = {1, 3, 0, 3, 5, 6, 3};
     int totalPages = sizeof(pages) / sizeof(pages[0]);
     int frameSize = 3;
-    cout << countPageMisses(pages, totalPages, frameSize) << endl;
+    cout<<"Page Reference String: ";
+    for(int i=0 ; i<totalPages; i++)
+    {
+        cout<<pages[i]<<' ';
+    }
+    cout<<endl;
+    cout<<"Frame Size :"<< frameSize<<endl;
+    cout <<"Total Number of Misses : " << countPageMisses(pages, totalPages, frameSize) << endl;
     return 0;
 }
